@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import '@sweetalert2/theme-bootstrap-4/bootstrap-4.css'
+import { Form } from "./components/Form";
 
-function App() {
+function LsApp() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container-fluid bg-dark">
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <h1 className="text-white my-3">LocalStorage App</h1>
+          </div>
+        </div>
+        <div className="row">
+            <Form />
+        </div>
+      </div>
     </div>
   );
 }
 
-export default App;
+export default LsApp;

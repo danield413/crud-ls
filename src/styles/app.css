@@ -1,0 +1,13 @@
+.container-fluid {
+    min-height: 100vh;
+}
+textarea {
+    resize: none;
+}
+#div-scroll {
+    height: 60vh;
+}
+
+ul {
+    list-style: none;
+}
