@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/styles/app.css"],"names":[],"mappings":"AAAA,iBACI,gBACJ,CACA,SACI,WACJ,CACA,YACI,WACJ,CAEA,GACI,eACJ","file":"main.5929f494.chunk.css","sourcesContent":[".container-fluid {\r\n    min-height: 100vh;\r\n}\r\ntextarea {\r\n    resize: none;\r\n}\r\n#div-scroll {\r\n    height: 60vh;\r\n}\r\n\r\nul {\r\n    list-style: none;\r\n}"]}
